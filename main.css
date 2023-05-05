@@ -1,3 +1,10 @@
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
 body {
   background: #3f3fb4
   color: #ffffff
@@ -5,3 +12,35 @@ body {
   margin: 2em auto;
 }
 
+header {
+  background-color: midnightblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #1313ce;
+  padding: 10px;
+}
+
+footer {
+  background-color: midnightblue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
